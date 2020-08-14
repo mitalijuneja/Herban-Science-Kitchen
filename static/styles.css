@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@100&family=Raleway&display=swap');
+body {
+    font-family:'Montserrat';
+}
+
+h1.title {
+    font-family:'Montserrat';
+    letter-spacing:0.2em;
+    font-size: 3vw;
+    text-transform:uppercase;
+    color:#000000;
+    text-align:center;
+    line-height:50%;
+}
+h1.subtitle {
+    font-family:'Caveat';
+    font-size:1.3vw;
+    color:#646464;
+    text-align:center;
+    font-weight:200;
+}
+
+h1 a {
+    text-decoration:none;
+    color:#000000;
+}
+
+h2.section-header {
+    font-family:'Montserrat';
+    text-transform:uppercase;
+    color:#000000;
+    text-align:center;
+    font-size:1.1vw;
+    letter-spacing:0.3em;
+    font-weight:1000;
+    margin-top:2em;
+}
+
+nav {
+    margin-top: 1em;
+    margin-left:12.4em;
+    margin-right:12.4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align:center;
+    font-size:1vw;
+    letter-spacing:0.1em;
+    font-weight:600;
+    text-decoration:none;
+    border-top:1px solid #000000;
+    border-bottom:1px solid #000000;
+}
+nav li {
+    list-style:none;
+    display: inline-block;
+    margin:0;
+    text-decoration:none;
+}
+
+nav a {
+    text-transform:uppercase;
+    text-decoration:none;
+    font-family:'Montserrat';
+    color:#000000;
+    margin: 1em;
+    padding:2em;
+}
+.active {
+    background-color:#e7e7e7;
+    color:#555555;
+}
+
+nav a:hover {
+    color:#555555;
+}
+div.title-img {
+    width:75%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+}
+div.grid-menu {
+    width:75%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.recipe-card-left {
+    float:left;
+    width:33.3%;
+    background-color:#ffffff;
+    margin-bottom:2em;
+    clear:right;
+   
+}
+div.recipe-card-right {
+    float:right;
+    width:33.3%;
+    background-color:#ffffff;
+    margin-bottom:2em;
+    clear:right;
+    
+}
+
+div.recipe-card-center {
+    width:33%;
+    background-color:#ffffff;
+    margin-bottom:2em;
+    margin-left:auto;
+    margin-right:auto;
+    clear:none;
+}
+
+div.container {
+    padding-left:1em;
+    padding-right:1em;
+    text-align:left;
+    color:#000000;
+    text-transform:uppercase;
+    line-height:150%;
+    font-weight:1000;
+    font-size:1vw;
+    letter-spacing:0.2em;
+    
+}
+div.container i {
+    color:#555555;
+    text-transform:none;
+    font-size:0.7vw;
+    letter-spacing:0.1em;
+}
+
+div.container a {
+    text-decoration:none;
+    color:#000000;
+}
+div.container a:hover {
+    text-decoration-line:underline;
+}
+
+div.post {
+    width:75%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+p.post-date {
+    font-style:italic;
+    font-size:0.8vw;
+    letter-spacing:0.1em;
+    line-height:150%;
+    margin-top:3em;
+}
+
+p.post-title {
+    text-transform:uppercase;
+    font-size:1.5vw;
+    letter-spacing:0.1em;
+}
+
+p.post-header {
+    font-family:'Raleway';
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    line-height:50%;
+}
+
+p.post {
+   font-size:1vw;
+   color:#555555; 
+}
+
+p.post li {
+    font-size:0.8vw;
+    color:#555555;
+}
+
+div.recipe-info {
+    font-family:'Raleway';
+    letter-spacing:0.1em;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    text-transform:uppercase;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+div.recipe-info h3 {
+    font-weight:1000;
+    font-size:1.5vw;
+}
+
+div.recipe-info p {
+    font-size:1.2vw;
+}
